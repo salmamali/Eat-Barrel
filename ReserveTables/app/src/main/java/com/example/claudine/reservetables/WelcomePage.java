@@ -17,26 +17,6 @@ public class WelcomePage extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void goToMamaItalianMethod(View view){
-        Intent intent= new Intent(WelcomePage.this,MamaItalian.class);
-        startActivity(intent);
-    }
-
-    public void goToDaVinciMethod(View view){
-        Intent intent= new Intent(WelcomePage.this,DaVinci.class);
-        startActivity(intent);
-    }
-
-    public void goToKoshariMethod(View view){
-        Intent intent= new Intent(WelcomePage.this,KoshariElTahrir.class);
-        startActivity(intent);
-    }
-
-    public void goToOmHassanMethod(View view){
-        Intent intent= new Intent(WelcomePage.this,OmHassan.class);
-        startActivity(intent);
-    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

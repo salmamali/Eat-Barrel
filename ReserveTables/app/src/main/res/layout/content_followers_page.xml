@@ -8,7 +8,6 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.claudine.reservetables.followersPage"
     tools:showIn="@layout/activity_followers_page"
     android:background="#ded5d5">
@@ -31,9 +30,7 @@
         android:id="@+id/textView30"
         android:layout_below="@+id/textView29"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
-        android:fontFamily="serif"
-        android:onClick="goToRadwa"/>
+        android:layout_marginTop="40dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -42,8 +39,7 @@
         android:id="@+id/textView31"
         android:layout_below="@+id/textView30"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:fontFamily="serif" />
+        android:layout_marginTop="15dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -52,8 +48,7 @@
         android:id="@+id/textView32"
         android:layout_below="@+id/textView31"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:fontFamily="serif" />
+        android:layout_marginTop="15dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -62,8 +57,7 @@
         android:id="@+id/textView33"
         android:layout_below="@+id/textView32"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:fontFamily="serif" />
+        android:layout_marginTop="15dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -72,7 +66,6 @@
         android:id="@+id/textView34"
         android:layout_below="@+id/textView33"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:fontFamily="serif" />
+        android:layout_marginTop="15dp" />
 
 </RelativeLayout>

@@ -9,16 +9,17 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.claudine.reservetables.followersPage"
-    tools:showIn="@layout/activity_followers_page"
+    tools:context="com.example.claudine.reservetables.DaVinci"
+    tools:showIn="@layout/activity_da_vinci"
     android:background="#ded5d5">
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="People that follow me"
-        android:id="@+id/textView29"
+        android:text="Agriristoro"
+        android:id="@+id/textView21"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:fontFamily="serif" />
@@ -26,53 +27,54 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Radwa Khaled"
-        android:id="@+id/textView30"
-        android:layout_below="@+id/textView29"
+        android:text="DESCRIPTIONNNNN OF THE RESTAURANT"
+        android:id="@+id/textView22"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reserve Now!"
+        android:id="@+id/button6"
+        android:onClick="ReserveMethod"
+        android:layout_below="@+id/textView24"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="45dp"
+        android:fontFamily="serif" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_below="@+id/textView22"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="29 likes"
+        android:id="@+id/textView24"
+        android:layout_below="@+id/ratingBar"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/pizza"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Like Restaurant"
+        android:id="@+id/button11"
         android:fontFamily="serif"
-        android:onClick="goToRadwa"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ereeny Youhana"
-        android:id="@+id/textView31"
-        android:layout_below="@+id/textView30"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:fontFamily="serif" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Claudine Hani"
-        android:id="@+id/textView32"
-        android:layout_below="@+id/textView31"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:fontFamily="serif" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hanna Ashraf"
-        android:id="@+id/textView33"
-        android:layout_below="@+id/textView32"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:fontFamily="serif" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Rana Ashraf"
-        android:id="@+id/textView34"
-        android:layout_below="@+id/textView33"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:fontFamily="serif" />
-
+        android:layout_below="@+id/textView24"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

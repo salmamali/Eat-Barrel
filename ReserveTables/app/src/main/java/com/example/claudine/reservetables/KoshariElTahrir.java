@@ -8,17 +8,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class following extends AppCompatActivity {
+public class KoshariElTahrir extends AppCompatActivity {
 
-    public void goToEreeny(View view){
-        Intent intent= new Intent(following.this,EreenyPage.class);
+
+    public void ReserveMethod(View view){
+        Intent intent= new Intent(KoshariElTahrir.this,ReservePage.class);
         startActivity(intent);
     }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_following);
+        setContentView(R.layout.activity_koshari_el_tahrir);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

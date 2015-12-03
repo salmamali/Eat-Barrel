@@ -17,6 +17,10 @@ public class LikedRestaurants extends AppCompatActivity {
     }
 
 
+    public void goToDaVinciMethod(View view){
+        Intent intent= new Intent(LikedRestaurants.this,DaVinci.class);
+        startActivity(intent);
+    }
 
 
     @Override

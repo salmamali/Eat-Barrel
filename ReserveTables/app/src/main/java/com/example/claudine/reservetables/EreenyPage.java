@@ -8,17 +8,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class following extends AppCompatActivity {
+public class EreenyPage extends AppCompatActivity {
 
-    public void goToEreeny(View view){
-        Intent intent= new Intent(following.this,EreenyPage.class);
+    public void LikedReastaurantsMethod(View view){
+        Intent intent= new Intent(EreenyPage.this,LikedRestaurants.class);
         startActivity(intent);
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_following);
+        setContentView(R.layout.activity_ereeny_page);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

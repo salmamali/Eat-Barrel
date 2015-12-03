@@ -8,7 +8,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.ListView;
 import android.widget.Toast;
 import android.content.Intent;
 import android.widget.Button;
@@ -17,7 +16,6 @@ import android.widget.EditText;//
 
 public class MainActivity extends AppCompatActivity {
     EditText NameEditText,editTextPhoneNumber,wordEditText;//
-    ListView postsList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         NameEditText=(EditText)findViewById(R.id.editText);//
         wordEditText=(EditText)findViewById(R.id.editText2);//
-        postsList = (ListView) findViewById(R.id.posts_list);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {

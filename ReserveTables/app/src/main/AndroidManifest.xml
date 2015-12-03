@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.claudine.reservetables">
+    package="com.example.claudine.reservetables" >
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme" >
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -51,25 +51,10 @@
             android:label="@string/title_activity_liked_restaurants"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".DaVinci"
-            android:label="@string/title_activity_da_vinci"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".KoshariElTahrir"
-            android:label="@string/title_activity_koshari_el_tahrir"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".OmHassan"
-            android:label="@string/title_activity_om_hassan"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".RadwaProfile"
-            android:label="@string/title_activity_radwa_profile"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".EreenyPage"
-            android:label="@string/title_activity_ereeny_page"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:name=".PostActivity"
+            android:label="@string/title_activity_post"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>

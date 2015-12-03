@@ -8,87 +8,56 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.claudine.reservetables.following"
-    tools:showIn="@layout/activity_following"
-    android:background="#ded5d5">
+    tools:showIn="@layout/activity_following">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="People I am following"
+        android:text="people Iam following"
         android:id="@+id/textView35"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="46dp"
-        android:fontFamily="serif" />
+        android:layout_marginTop="46dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Ereeny Youhana"
+        android:text="Adham khaled"
         android:id="@+id/textView36"
         android:layout_marginTop="50dp"
         android:layout_below="@+id/textView35"
-        android:layout_centerHorizontal="true"
-        android:fontFamily="serif"
-        android:onClick="goToEreeny"/>
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:id="@+id/textView37"
-        android:text="Rana Ashraf"
+        android:text="Rana ashraf"
         android:layout_below="@+id/textView36"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:fontFamily="serif" />
+        android:layout_alignLeft="@+id/textView36"
+        android:layout_alignStart="@+id/textView36" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Karin Hani"
+        android:text="Karin yehia"
         android:id="@+id/textView38"
         android:layout_below="@+id/textView37"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:fontFamily="serif" />
+        android:layout_alignLeft="@+id/textView37"
+        android:layout_alignStart="@+id/textView37" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="youssef Youhana"
+        android:text="youssef youhana"
         android:id="@+id/textView39"
         android:layout_below="@+id/textView38"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="42dp"
-        android:fontFamily="serif" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Mark Hani"
-        android:id="@+id/textView18"
-        android:layout_below="@+id/textView39"
-        android:layout_centerHorizontal="true"
-        android:fontFamily="serif"
-        android:layout_marginTop="30dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Adham Khaled"
-        android:id="@+id/textView41"
-        android:layout_below="@+id/textView18"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:fontFamily="serif" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

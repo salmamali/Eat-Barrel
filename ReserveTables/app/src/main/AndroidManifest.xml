@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.claudine.reservetables">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WelcomePage"
+            android:label="@string/title_activity_welcome_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MamaItalian"
+            android:label="@string/title_activity_mama_italian"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ReservePage"
+            android:label="@string/title_activity_reserve_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyProfile"
+            android:label="@string/title_activity_my_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".followersPage"
+            android:label="@string/title_activity_followers_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".following"
+            android:label="@string/title_activity_following"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LikedRestaurants"
+            android:label="@string/title_activity_liked_restaurants"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DaVinci"
+            android:label="@string/title_activity_da_vinci"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KoshariElTahrir"
+            android:label="@string/title_activity_koshari_el_tahrir"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OmHassan"
+            android:label="@string/title_activity_om_hassan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RadwaProfile"
+            android:label="@string/title_activity_radwa_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EreenyPage"
+            android:label="@string/title_activity_ereeny_page"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
